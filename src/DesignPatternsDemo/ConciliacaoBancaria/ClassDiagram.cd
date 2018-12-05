@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.ConciliacaoBancariaContext">
+    <Position X="3" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\ConciliacaoBancariaContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.ConciliacaoBancariaStrategy">
+    <Position X="8.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\ConciliacaoBancariaStrategy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ConciliacaoBancariaContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.CreditoCobrancaStrategy">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\Strategies\CreditoCobrancaStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.PagamentoEletronicoStrategy">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\Strategies\PagamentoEletronicoStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.ProdutoDespesaBancariaStrategy">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\Strategies\ProdutoDespesaBancariaStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.ProdutoNaoIdentificadoStrategy">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\Strategies\ProdutoNaoIdentificadoStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.ProdutoRendimentoStrategy">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\Strategies\ProdutoRendimentoStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.ProdutoResgateStrategy">
+    <Position X="14.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\Strategies\ProdutoResgateStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.TributoStrategy">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ConciliacaoBancaria\Strategies\TributoStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -5,10 +5,7 @@ namespace DesignPatternsDemo.ConciliacaoBancaria
 {
     // Composition     
     public class ConciliacaoBancariaContext
-    {
-        private ILancamentoContaVirtualRepository m_lancamentoContaVirtualRepository;
-        private IExtratoBancarioRepository m_extratoBancarioRepository;
-
+    {        
         private readonly IEnumerable<ConciliacaoBancariaStrategy> _strategies;
 
         public ConciliacaoBancariaContext(IEnumerable<ConciliacaoBancariaStrategy> strategies)
@@ -20,9 +17,6 @@ namespace DesignPatternsDemo.ConciliacaoBancaria
             ILancamentoContaVirtualRepository lancamentoContaVirtualRepository,
             IExtratoBancarioRepository extratoBancarioRepository)
         {
-            m_lancamentoContaVirtualRepository = lancamentoContaVirtualRepository;
-            m_extratoBancarioRepository = extratoBancarioRepository;
-
             foreach (var strategy in _strategies)
             {
                 strategy.Conciliar(lancamentoContaVirtualRepository, extratoBancarioRepository); 
