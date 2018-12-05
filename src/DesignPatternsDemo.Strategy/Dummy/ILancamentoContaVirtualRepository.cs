@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsDemo.Dummy
+﻿namespace DesignPatternsDemo.Strategy.Dummy
 {
     public interface ILancamentoContaVirtualRepository
     {

@@ -1,10 +1,10 @@
 ﻿using static System.Console;
 using System.Collections.Generic;
-using DesignPatternsDemo.ConciliacaoBancaria;
-using DesignPatternsDemo.ConciliacaoBancaria.Strategies;
-using DesignPatternsDemo.Dummy;
+using DesignPatternsDemo.Strategy.Dummy;
+using DesignPatternsDemo.Strategy.ConciliacaoBancaria.Strategies;
+using DesignPatternsDemo.Strategy.ConciliacaoBancaria;
 
-namespace DesignPatternsDemo
+namespace DesignPatternsDemo.Strategy
 {
     class Program
     {

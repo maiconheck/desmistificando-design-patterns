@@ -1,6 +1,6 @@
-﻿using DesignPatternsDemo.Dummy;
+﻿using DesignPatternsDemo.Strategy.Dummy;
 
-namespace DesignPatternsDemo.ConciliacaoBancaria
+namespace DesignPatternsDemo.Strategy.ConciliacaoBancaria
 {
     // Compositor
     public abstract class ConciliacaoBancariaStrategy
