@@ -4,6 +4,11 @@ using DesignPatternsDemo.ConciliacaoBancaria;
 using DesignPatternsDemo.ConciliacaoBancaria.Strategies;
 using DesignPatternsDemo.Dummy;
 
+#region Dicas
+// Usem a nomenclatura dos 'participantes' (Uncle Bob)
+// Uma vez bem implementado, não tenham medo de melhorar.
+#endregion
+
 namespace DesignPatternsDemo
 {
     class Program

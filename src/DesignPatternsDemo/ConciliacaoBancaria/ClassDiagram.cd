@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DesignPatternsDemo.ConciliacaoBancaria.ConciliacaoBancariaContext">
-    <Position X="3" Y="1" Width="2.75" />
+    <Position X="5.25" Y="1" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>ConciliacaoBancaria\ConciliacaoBancariaContext.cs</FileName>
@@ -10,12 +10,9 @@
   <Class Name="DesignPatternsDemo.ConciliacaoBancaria.ConciliacaoBancariaStrategy">
     <Position X="8.75" Y="1" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>ConciliacaoBancaria\ConciliacaoBancariaStrategy.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="ConciliacaoBancariaContext" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatternsDemo.ConciliacaoBancaria.Strategies.CreditoCobrancaStrategy">
     <Position X="3.5" Y="5" Width="1.5" />
