@@ -1,6 +1,6 @@
 ﻿using Flunt.Validations;
 
-namespace DesignPatternsDemo.AbstractFactory.Dummy.Domain.Model
+namespace DesignPatternsDemo.Factories.Fake.Domain.Model
 {
     public class Category : Entity
     {

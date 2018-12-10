@@ -1,7 +1,7 @@
-﻿using DesignPatternsDemo.AbstractFactory.Dummy.Domain.Model;
-using DesignPatternsDemo.AbstractFactory.Factories;
+﻿using DesignPatternsDemo.Factories.Fake.Domain.Model;
+using DesignPatternsDemo.Factories.CommandResult;
 
-namespace DesignPatternsDemo.AbstractFactory.Dummy.Application
+namespace DesignPatternsDemo.Factories.Fake.Application
 {
     public abstract class CategoryApplicationServiceBase
     {
@@ -14,7 +14,7 @@ namespace DesignPatternsDemo.AbstractFactory.Dummy.Application
 
         protected ICommandResult Create(Entity entity, object successData, string successMessage = "")
         {
-            var result = CommandResultFactory2.NewCommandResult(_commandResultFactory, entity, successData, successMessage);            
+            var result = CommandResultFactory.NewCommandResult(_commandResultFactory, entity, successData, successMessage);            
 
             if (!result.Success)
                 return result;
@@ -32,7 +32,7 @@ namespace DesignPatternsDemo.AbstractFactory.Dummy.Application
             if (entity == null)
                 return commandResult.NewFailCommandResult("Registro não encontrado.");
 
-            var result = CommandResultFactory2.NewCommandResult(_commandResultFactory, entity, successData, successMessage);
+            var result = CommandResultFactory.NewCommandResult(_commandResultFactory, entity, successData, successMessage);
 
             if (!result.Success)
                 return result;

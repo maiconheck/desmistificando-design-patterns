@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Flunt.Notifications;
 
-namespace DesignPatternsDemo.AbstractFactory.Factories
+namespace DesignPatternsDemo.Factories.CommandResult.ThirdParty
 {
     // ConcreteFactory ThirdParty
     public class ThirdPartyCommandResultFactory : ICommandResultFactory

@@ -1,7 +1,7 @@
 ﻿using System;
 using Flunt.Notifications;
 
-namespace DesignPatternsDemo.AbstractFactory.Dummy.Domain.Model
+namespace DesignPatternsDemo.Factories.Fake.Domain.Model
 {
     public abstract class Entity : Notifiable
     {

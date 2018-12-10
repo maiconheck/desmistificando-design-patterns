@@ -2,17 +2,18 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using DesignPatternsDemo.AbstractFactory.Factories;
-using DesignPatternsDemo.AbstractFactory.Dummy.Application;
+using DesignPatternsDemo.Factories.CommandResult;
+using DesignPatternsDemo.Factories.Fake.Application;
+using DesignPatternsDemo.Factories.CommandResult.Basic;
 
-namespace DesignPatternsDemo.AbstractFactory
+namespace DesignPatternsDemo.Factories
 {
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ICommandResultFactory, BasicCommandResultFactory>();
             services.AddScoped<CategoryApplicationService>();
-            services.AddScoped<ICommandResultFactory, CommandResultFactory>();
 
             services.AddCors();
             services.AddMvc();

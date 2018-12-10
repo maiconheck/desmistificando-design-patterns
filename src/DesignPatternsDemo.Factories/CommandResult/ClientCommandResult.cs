@@ -1,7 +1,7 @@
 ﻿using Flunt.Notifications;
 using System.Collections.Generic;
 
-namespace DesignPatternsDemo.AbstractFactory.Factories
+namespace DesignPatternsDemo.Factories.CommandResult
 {    
     public sealed class ClientCommandResult
     {

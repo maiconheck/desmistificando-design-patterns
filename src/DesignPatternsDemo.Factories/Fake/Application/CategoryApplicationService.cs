@@ -1,7 +1,7 @@
-﻿using DesignPatternsDemo.AbstractFactory.Dummy.Domain.Model;
-using DesignPatternsDemo.AbstractFactory.Factories;
+﻿using DesignPatternsDemo.Factories.Fake.Domain.Model;
+using DesignPatternsDemo.Factories.CommandResult;
 
-namespace DesignPatternsDemo.AbstractFactory.Dummy.Application
+namespace DesignPatternsDemo.Factories.Fake.Application
 {
     public class CategoryApplicationService : CategoryApplicationServiceBase,
         ICommandHandler<CreateCategoryCommand>,

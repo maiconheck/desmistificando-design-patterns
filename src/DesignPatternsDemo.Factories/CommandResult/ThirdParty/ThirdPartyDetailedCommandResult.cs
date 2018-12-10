@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsDemo.AbstractFactory.Factories
+﻿namespace DesignPatternsDemo.Factories.CommandResult.ThirdParty
 {
     public sealed class ThirdPartyDetailedCommandResult : ThirdPartyCommandResult
     {

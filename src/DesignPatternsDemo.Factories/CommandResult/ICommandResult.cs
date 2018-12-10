@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsDemo.AbstractFactory.Factories
+﻿namespace DesignPatternsDemo.Factories.CommandResult
 {
     // Abstract Product    
     public interface ICommandResult

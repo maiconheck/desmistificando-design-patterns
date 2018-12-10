@@ -1,9 +1,9 @@
-﻿using DesignPatternsDemo.AbstractFactory.Dummy.Domain.Model;
+﻿using DesignPatternsDemo.Factories.Fake.Domain.Model;
 
-namespace DesignPatternsDemo.AbstractFactory.Factories
+namespace DesignPatternsDemo.Factories.CommandResult
 {
     // Factory Method
-    public static class CommandResultFactory2
+    public static class CommandResultFactory
     {
         public static ICommandResult NewCommandResult(
             ICommandResultFactory commandResultFactory,

@@ -1,8 +1,8 @@
 ﻿using System;
-using DesignPatternsDemo.AbstractFactory.Dummy.Application;
+using DesignPatternsDemo.Factories.Fake.Application;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DesignPatternsDemo.AbstractFactory.Controllers
+namespace DesignPatternsDemo.Factories.Controllers
 {
     [Route("api/v1/[Controller]")]
     public class CategoryController : Controller

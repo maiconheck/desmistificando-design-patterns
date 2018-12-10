@@ -1,6 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿using System;
+using Newtonsoft.Json;
 
-namespace DesignPatternsDemo.AbstractFactory.Factories
+namespace DesignPatternsDemo.Factories.CommandResult.ThirdParty
 {
     // Concrete Product ThirdParty
     public class ThirdPartyCommandResult : ICommandResult
@@ -14,10 +15,11 @@ namespace DesignPatternsDemo.AbstractFactory.Factories
         public int Codigo { get; }
 
         [JsonProperty("mensagem")]
-        public string Message { get; }
+        public string Message { get; }        
 
         [JsonIgnore]
         public bool Success => Codigo == 0 ? true : false;
 
+        public DateTime Log { get; } = DateTime.Now;
     }
 }

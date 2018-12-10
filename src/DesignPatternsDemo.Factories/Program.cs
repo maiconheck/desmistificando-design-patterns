@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace DesignPatternsDemo.AbstractFactory
+namespace DesignPatternsDemo.Factories
 {
     public class Program
     {

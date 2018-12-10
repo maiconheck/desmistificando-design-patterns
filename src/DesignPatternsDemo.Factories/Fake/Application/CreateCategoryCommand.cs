@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatternsDemo.AbstractFactory.Dummy.Application
+namespace DesignPatternsDemo.Factories.Fake.Application
 {
     public class CreateCategoryCommand : ICommand
     {
