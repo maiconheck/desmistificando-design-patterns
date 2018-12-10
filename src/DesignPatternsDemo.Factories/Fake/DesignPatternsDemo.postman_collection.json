@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "bfc25d8c-bbf8-4a8b-a3fb-11a280eaae0d",
+		"name": "DesignPatternsDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5001/api/v1/appointment Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"Mobile\",\r\n\t\"description\": \"Celulares e smartphones\",\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:22627/api/v1/category",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "22627",
+					"path": [
+						"api",
+						"v1",
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5001/api/v1/appointment/8602D63D-00B4-4A07-8A63-75C44CA295FC Copy",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"startDate\": \"2018-11-22\",\r\n\t\"endDate\": \"2018-11-23\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:22627/api/v1/category/33FF8A97-0CFE-4281-B56E-015C0AEE8096/deactivate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "22627",
+					"path": [
+						"api",
+						"v1",
+						"category",
+						"33FF8A97-0CFE-4281-B56E-015C0AEE8096",
+						"deactivate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

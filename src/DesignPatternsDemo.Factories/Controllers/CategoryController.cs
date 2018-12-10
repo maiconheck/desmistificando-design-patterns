@@ -22,7 +22,7 @@ namespace DesignPatternsDemo.Factories.Controllers
         }
 
         [HttpPut]
-        [Route("{id}")]
+        [Route("{id}/deactivate")]
         public IActionResult Put(Guid id, [FromBody] DeactivateCategoryCommand command)
         {
             command.Id = id;

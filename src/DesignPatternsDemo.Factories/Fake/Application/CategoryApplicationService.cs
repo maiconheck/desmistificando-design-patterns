@@ -27,7 +27,7 @@ namespace DesignPatternsDemo.Factories.Fake.Application
 
             category.Deactivate();
 
-            return Update(category, new { category.Name, category.Active }, $"Categoria {category?.Name} atualizada com sucesso.");
+            return Update(category, new { category.Name, category.Active }, $"Categoria {category?.Name} desativada com sucesso.");
         }
     }
 }
