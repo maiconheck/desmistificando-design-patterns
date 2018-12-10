@@ -3,13 +3,13 @@ using DesignPatternsDemo.Dummy;
 
 namespace DesignPatternsDemo.ConciliacaoBancaria.Strategies
 {
-    public class ProdutoResgateStrategy : ConciliacaoBancariaStrategy
+    public class ProdutoRendimentoStrategy : ConciliacaoBancariaStrategy
     {
         public override void Conciliar(
             ILancamentoContaVirtualRepository lancamentoContaVirtualRepository,
             IExtratoBancarioRepository extratoBancarioRepository)
         {     
-            WriteLine("Conciliação de resgate.");
+            WriteLine("Conciliação de Rentabilidade.");
         }
     }
 }

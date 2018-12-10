@@ -16,7 +16,7 @@ namespace DesignPatternsDemo.ConciliacaoBancaria.Strategies
             ILancamentoContaVirtualRepository lancamentoContaVirtualRepository,
             IExtratoBancarioRepository extratoBancarioRepository)
         {            
-            WriteLine("Conciliação de crédito cobrança.");
+            WriteLine("Conciliação de Crédito Cobrança.");
         }
     }
 }

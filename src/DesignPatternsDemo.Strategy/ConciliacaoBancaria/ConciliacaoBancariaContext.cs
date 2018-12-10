@@ -3,7 +3,7 @@ using DesignPatternsDemo.Dummy;
 
 namespace DesignPatternsDemo.ConciliacaoBancaria
 {
-    // Composition     
+    // aka. Composition     
     public class ConciliacaoBancariaContext
     {        
         private readonly IEnumerable<ConciliacaoBancariaStrategy> _strategies;

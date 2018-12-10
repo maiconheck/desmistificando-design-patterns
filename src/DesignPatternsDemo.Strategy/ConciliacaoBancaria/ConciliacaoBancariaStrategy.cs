@@ -2,7 +2,7 @@
 
 namespace DesignPatternsDemo.ConciliacaoBancaria
 {
-    // Compositor
+    // aka. Compositor
     public abstract class ConciliacaoBancariaStrategy
     {
         public abstract void Conciliar(

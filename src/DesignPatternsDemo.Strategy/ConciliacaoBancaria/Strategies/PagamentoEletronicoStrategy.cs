@@ -16,7 +16,7 @@ namespace DesignPatternsDemo.ConciliacaoBancaria.Strategies
             ILancamentoContaVirtualRepository lancamentoContaVirtualRepository,
             IExtratoBancarioRepository extratoBancarioRepository)
         {
-            WriteLine("Conciliação de pagamento eletrônico.");
+            WriteLine("Conciliação de Pagamento Eletrônico.");
         }
     }
 }

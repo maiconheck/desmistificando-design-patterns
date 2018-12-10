@@ -25,7 +25,7 @@ namespace DesignPatternsDemo.ConciliacaoBancaria.Strategies
 
             // ...
 
-            WriteLine("Conciliação de tributo.");
+            WriteLine("Conciliação de Tributo.");
         }
     }
 }
