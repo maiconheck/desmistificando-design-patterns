@@ -1,8 +1,8 @@
 ﻿using static System.Console;
 using System.Collections.Generic;
-using DesignPatternsDemo.ConciliacaoBancaria;
-using DesignPatternsDemo.ConciliacaoBancaria.Strategies;
-using DesignPatternsDemo.Dummy;
+using DesignPatternsDemo.Strategy.Dummy;
+using DesignPatternsDemo.Strategy.ConciliacaoBancaria.Strategies;
+using DesignPatternsDemo.Strategy.ConciliacaoBancaria;
 
 #region Dicas
 // Usem a nomenclatura dos 'participantes' (Uncle Bob)

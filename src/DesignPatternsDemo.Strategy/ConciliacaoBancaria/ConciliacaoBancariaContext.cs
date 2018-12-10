@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DesignPatternsDemo.Dummy;
+using DesignPatternsDemo.Strategy.Dummy;
 
-namespace DesignPatternsDemo.ConciliacaoBancaria
+namespace DesignPatternsDemo.Strategy.ConciliacaoBancaria
 {
     // aka. Composition     
     public class ConciliacaoBancariaContext

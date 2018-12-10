@@ -1,7 +1,7 @@
-﻿using static System.Console;
-using DesignPatternsDemo.Dummy;
+﻿using DesignPatternsDemo.Strategy.Dummy;
 
-namespace DesignPatternsDemo.ConciliacaoBancaria.Strategies
+using static System.Console;
+namespace DesignPatternsDemo.Strategy.ConciliacaoBancaria.Strategies
 {
     public class TributoStrategy : ConciliacaoBancariaStrategy
     {
