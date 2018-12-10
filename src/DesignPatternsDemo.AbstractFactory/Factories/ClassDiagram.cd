@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Krafted.Framework.SharedKernel.Commands.Result.CommandResult" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Factories\CommandResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Krafted.Framework.SharedKernel.Commands.Result.CommandResultFactory">
+    <Position X="0.75" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\CommandResultFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Krafted.Framework.SharedKernel.Commands.Result.ThirdPartyCommandResultFactory">
+    <Position X="4.25" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Factories\ThirdPartyCommandResultFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Krafted.Framework.SharedKernel.Commands.Result.ThirdPartyCommandResult" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Factories\ThirdPartyCommandResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Krafted.Framework.SharedKernel.Commands.Result.ClientCommandResult">
+    <Position X="10.25" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Factories\ClientCommandResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Krafted.Framework.SharedKernel.Commands.Result.DetailedCommandResult">
+    <Position X="7.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\DetailedCommandResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Krafted.Framework.SharedKernel.Commands.Result.ThirdPartyDetailedCommandResult">
+    <Position X="10.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Factories\ThirdPartyDetailedCommandResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Krafted.Framework.SharedKernel.Commands.Result.ICommandResultFactory">
+    <Position X="0.75" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ICommandResultFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Krafted.Framework.SharedKernel.Commands.Result.ICommandResult" Collapsed="true">
+    <Position X="7.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Factories\ICommandResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
