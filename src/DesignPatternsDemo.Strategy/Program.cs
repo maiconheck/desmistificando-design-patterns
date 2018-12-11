@@ -6,7 +6,7 @@ using DesignPatternsDemo.Strategy.ConciliacaoBancaria;
 
 #region Dicas
 // Usem a nomenclatura dos 'participantes' (Uncle Bob)
-// Uma vez bem implementado, não tenha medo de melhorar. Mas não estrague.
+// Uma vez implementado corretamente, não tenha medo de melhorar. Mas não estrague.
 // Design patterns vão aumentar a complexidade. Tem que valer a pena.
 #endregion
 
