@@ -3,11 +3,11 @@ using DesignPatternsDemo.Factories.CommandResult;
 
 namespace DesignPatternsDemo.Factories.Fake.Application
 {
-    public abstract class CategoryApplicationServiceBase
+    public abstract class ApplicationServiceBase
     {
         private readonly ICommandResultFactory _commandResultFactory;
 
-        protected CategoryApplicationServiceBase(ICommandResultFactory commandResultFactory)
+        protected ApplicationServiceBase(ICommandResultFactory commandResultFactory)
         {
             _commandResultFactory = commandResultFactory;
         }

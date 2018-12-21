@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using DesignPatternsDemo.Factories.CommandResult;
 using DesignPatternsDemo.Factories.Fake.Application;
 using DesignPatternsDemo.Factories.CommandResult.Basic;
+using DesignPatternsDemo.Factories.CommandResult.Default;
 
 namespace DesignPatternsDemo.Factories
 {
@@ -12,7 +13,7 @@ namespace DesignPatternsDemo.Factories
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ICommandResultFactory, BasicCommandResultFactory>();
+            services.AddScoped<ICommandResultFactory, DefaultCommandResultFactory>();
             services.AddScoped<CategoryApplicationService>();
 
             services.AddCors();

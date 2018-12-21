@@ -3,7 +3,7 @@ using DesignPatternsDemo.Factories.CommandResult;
 
 namespace DesignPatternsDemo.Factories.Fake.Application
 {
-    public class CategoryApplicationService : CategoryApplicationServiceBase,
+    public class CategoryApplicationService : ApplicationServiceBase,
         ICommandHandler<CreateCategoryCommand>,
         ICommandHandler<DeactivateCategoryCommand>
     {
